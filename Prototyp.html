@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digitale Visitenkarte – Max Mustermann</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e6f0ff, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: white;
+      padding: 2.5rem;
+      border-radius: 2rem;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #1e90ff;
+      margin-bottom: 1.2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #333;
+      margin: 0.5rem 0;
+    }
+
+    .title {
+      color: #1e90ff;
+      font-weight: bold;
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+    }
+
+    p {
+      margin: 0.3rem 0;
+      color: #444;
+      font-size: 0.95rem;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 0.6rem 0.4rem;
+      padding: 0.7rem 1.4rem;
+      background-color: #1e90ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.8rem;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #155eab;
+    }
+
+    .footer a {
+      font-size: 0.9rem;
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="profilbild.jpg" alt="Profilbild" class="profile-img" />
+    <h1>Max Mustermann</h1>
+    <p class="title">Junior Webentwickler</p>
+    <p>max.mustermann@example.com</p>
+    <p>+41 79 123 45 67</p>
+    <div class="buttons">
+      <a href="mailto:max.mustermann@example.com">E-Mail senden</a>
+      <a href="tel:+41791234567">Anrufen</a>
+    </div>
+    <div class="footer">
+      <p><a href="https://www.linkedin.com/in/maxmustermann" target="_blank">LinkedIn-Profil</a></p>
+    </div>
+  </div>
+</body>
+</html>
